@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: linear-gradient(to top right, blue, palevioletred);
+    padding: 20px;
+    background-size: cover;
+    height: 635px;
+}
+
+.section-1 {
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    max-width: 1000px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.my-img {
+    /* vertical-align: middle; */
+    padding-top: 0%;
+    display: flex;
+    padding-top: 20px !important;
+    display: block;
+    will-change: transform;
+    transform: perspective(300px) rotateX(0deg) rotateY(0deg);
+
+}
+
+.login-page {
+    padding-top: 20px;
+}
+.input {
+    padding-right: 37px;
+    display: flex;
+    border-color: rgb(202, 202, 202);
+    border-radius: 25px;
+    margin-top: 12px;
+    padding-left: 38px;
+    background-color: rgb(214, 209, 209);
+    border: none;
+    height: 50px;
+    font-size: 15px;
+}
+.member {
+    text-align: center;
+    font-family: Poppins-Bold;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+}
+.btn {
+    text-align: center;
+    /* margin-left: 74px; */
+    margin-top: 35px;
+    padding: 10px 115px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    background-color: rgb(87, 191, 87);
+    color: white;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 50px;
+    font-size: 15px;
+}
+.btn:hover {
+    background-color: green;
+    cursor: pointer;
+}
+.forgot {
+    margin-top: 10px;
+    text-align: center;
+    opacity: 0.7;
+    display: block;
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+.create-account {
+    margin-top: 100px;
+    text-align: center;
+    opacity: 0.7;
+    display: block;
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+.input:hover {
+    background-color: rgb(154, 154, 154);
+    border: none;
+}
+
+.input:focus {
+    outline: none;
+}
+@media only screen and (max-width:600px) {
+    .my-img {
+        display: none;
+    }
+    body {
+        background: white;
+        display: flex;
+        justify-content: center;
+    }
+}
+#sign {
+    display: none;
+}

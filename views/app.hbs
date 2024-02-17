@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/img.css">
+    <title>Image</title>
+</head>   
+
+<body>
+    <div class="container">
+        <div class="section-1">
+            <div class="my-img">
+                <img src="/images/img.webp" alt="myimg">
+            </div>
+            <div id="login">
+                <div class="form">
+
+                    <p class="member"><strong> Student Room Finder </strong>
+                    <p>
+                        
+                     {{!-- <div class="login-page">
+                        <form method="POST" action="/login">
+                        <input type="text" placeholder="Email" class="input" Name="email" id="email" required>
+                        <input type="password" placeholder="Password" class="input my-input" Name="password"
+                            id="password" required>
+                        <button class="btn" type="submit" onClick="index()">Login</button>
+                        </form>
+                        <a href=" #" class="forgot"><span style="opacity: 0.6;">Forgot</span> Username/Password?</a>
+                        <a href="#" class="create-account" onclick="myFunction()">Create Your Account</a>
+                    </div>  --}}
+
+                  {{> login}}
+                </div>
+            </div>
+            {{> signup}}
+            {{!-- <div id="sign">
+                <div class="form">
+                    <p class="member"><strong> Member sign up </strong>
+                    <p>
+                    <div class="login-page">
+                        <form method="POST" action="/register">
+                            <input type="name" placeholder="Name" class="input" required id="name" name="name">
+                            <input type="email" placeholder="Email" class="input" required id="email" name="email">
+                            <input type="text" placeholder="contact" class="input my-input" required id="contact"
+                                name="contact">
+                            <input type="password" placeholder="Password" class="input" required id="password"
+                                name="password">
+
+                            <button class="btn" type="submit" onclick="acceptData()">Sign Up</button>
+                        </form>
+                        <a href="#" class="forgot" onclick="second()">Login</a>
+                    </div>
+
+                </div>
+            </div> --}}
+        </div>
+    </div>
+    <script src="/js/my.js">
+    </script>
+
+</body>
+
+</html>
